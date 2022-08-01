@@ -1,0 +1,22 @@
+title: PR Map Skip
+description: Changes Port Royal's ship map into dialog choices to prevent crashes.
+assets:
+- name: msg/jp/ca.bar
+  multi:
+  - name: msg/us/ca.bar
+  - name: msg/fr/ca.bar
+  - name: msg/gr/ca.bar
+  - name: msg/it/ca.bar
+  - name: msg/sp/ca.bar
+  method: binarc
+  source:
+  - name: ca
+    type: list
+    method: kh2msg
+    source:
+    - name: msg/ca.yml
+      language: en
+- name: libretto-ca.bar
+  method: copy
+  source:
+  - name: msg/libretto-ca.bar
