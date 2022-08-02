@@ -14,9 +14,9 @@ assets:
     type: list
     method: kh2msg
     source:
-    - name: msg/ca.yml
+    - name: ca.yml
       language: en
 - name: libretto-ca.bar
   method: copy
   source:
-  - name: msg/libretto-ca.bar
+  - name: libretto-ca.bar
